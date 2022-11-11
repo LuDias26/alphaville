@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* paleta de cores -
+rgba(2, 81, 80, 1);
+#033649;
+rgb(235, 229, 221);
+família de fontes -
+font-family: 'Comfortaa', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+/*header e footer estilização*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: rgb(235, 229, 221);
+}
+
+#txtheader {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-weight: bold;
+}
+
+#button1 {
+    background-color:rgba(2, 81, 80, 1);
+    border:rgba(2, 81, 80, 1);
+    text-align: center;
+    height: 40px;
+    width: 231px;
+    
+}
+
+#button1:hover {
+    background-color: rgba(3, 120, 120, 3);
+    color: black;
+    border-radius: 10px;;
+
+}  
+
+#button2 {
+    background-color:rgba(2, 81, 80, 1);
+    border:rgba(2, 81, 80, 1);
+    ;
+    height: 40px;
+    width: 150px;
+    
+}
+
+#button2:hover {
+    background-color: rgba(3, 120, 120, 3);
+    color: black;
+    border-radius: 10px;
+
+}
+
+#button3 {
+    background-color:rgba(2, 81, 80, 1);
+    border:rgba(2, 81, 80, 1);
+    ;
+    height: 40px;
+    width: 200px;
+    
+}
+
+#button3:hover {
+    background-color: rgba(3, 120, 120, 3);
+    color: black;
+    border-radius: 10px;
+
+}
+
+#button4 {
+    background-color:rgba(2, 81, 80, 1);
+    border:rgba(2, 81, 80, 1);
+    ;
+    height: 40px;
+    width: 150px;
+    
+}
+
+#button4:hover {
+    background-color: rgba(3, 120, 120, 3);
+    color: black;
+    border-radius: 10px;
+
+}
+
+header {
+  
+    height: 15vh;
+    display: flex;
+    color: black;
+    background-color:rgba(2, 81, 80, 1);
+    box-shadow: 0 0 1rem black;
+    
+}
+ .logo {
+    margin: 20px 30px ;
+ }
+a {
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    display: flex;
+    margin: 50px;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    padding-left: 2rem;}
+    
+ footer {
+    text-align: center;
+  background-color: rgba(2, 81, 80, 1);
+    padding: 10px 0;
+    border: #000;
+    box-shadow: 0 0 1rem black;
+ }
+    
+/*Geral*/
+h2 {
+    margin: 30px 0px;
+    text-align: center;
+}
+h1, h2, h3, h4, h5 {
+    color: #033649;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;   
+    font-weight: bold;
+}
+
+p{
+    color: #033649;
+    font-family: 'Open Sans', sans-serif;
+   }
+
+.copyright {
+	color: #000;
+	font-size: 13px;
+	margin: 20px 0 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*Conheça o Bairro*/
+
+#imgcapa {
+    border: 0.1px solid rgb(134, 134, 134);
+    box-shadow: 0 0.3rem 0.5rem rgb(134, 134, 134);
+}
+
+#txtcapa {
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color:rgba(2, 81, 80, 1);
+    
+}
+
+#p1a {
+    text-align: center;
+    font-size: 30px;
+}
+
+iframe {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px ;
+    box-shadow: 0 0.3rem 0.5rem 0.5rem rgb(134, 134, 134);
+}
+
+#imgloco {
+    border: 0.1px solid  rgb(134, 134, 134)
+}
+
+#Loco {
+    position: absolute;
+    top: 1350px;
+    left: 550px;
+    color:  #ffffff;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;   
+    
+}
+
+#L1{  
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 1400px;
+    left: 50px;
+    right: 50PX;
+    width: 500px;
+    height: 80px;
+    background-color:  rgba(3, 101, 100, 1);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 0.3rem rgb(0, 0, 0);
+}
+
+#L2 {
+    font-size: 20px;
+    color: #ffffff;;
+    position: absolute;
+    top: 1550px;
+    left: 50px;
+    right: 60PX;
+    width: 500px;
+    height: 130px;
+    background-color:  rgba(3, 101, 100, 1);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 0.3rem rgb(0, 0, 0);
+}
+
+#L3 {
+    font-size: 20px;
+    color: #ffffff;
+    position: absolute;
+    top: 1750px;
+    left: 50px;
+    right: 50PX;
+    width: 500px;
+    height: 130px;
+    background-color:  rgba(3, 101, 100, 1);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
+    box-shadow: 0 0 0.3rem rgb(0, 0, 0);
+}
+
+#p1 {
+    font-size: 25px;
+    text-align: left;
+    display: flex ;
+    float: left;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+#imgcriador1 {
+  float: right;
+  margin-left: 20px;
+}
+
+#imgcriador1:hover {
+   opacity: 0.5;
+}
+
+#imgcriador2 {
+    float: right;
+    margin-left: 1px;
+}
+
+#imgcriador2:hover {
+    opacity: 0.5;
+ }
+
+div.estatistica {
+    text-align: left;
+    color: #000;
+    background-color: rgb(235, 229, 221);
+    padding: 10px; 
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(134, 134, 134);
+    border-bottom-style: solid;
+    border-bottom-color:rgb(134, 134, 134);
+    border-bottom-width: 1px;
+}
+
+#borda1 {
+    text-align: left;
+    color: #fff;
+    background-color: rgba(2, 81, 80, 1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0 0.3rem black;
+}
+
+#p2 {
+    font-size: 25px;
+    text-align: left;
+    display: flex ;
+    float: left;
+    clear: both;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.centroc {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: -25px;
+    border-radius: 30px;
+    border: 6px solid #033649;
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+#p3 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+/*História*/
+
+#p4{
+    text-align: center;
+    font-size: 30px;
+}
+
+#p5 {
+    font-size: 30px;
+    text-align: center;
+    display: flex ;
+    float: left;   
+    margin-left: 30px;
+    margin-top: 30px; 
+}
+
+#hp {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 20px;
+    border: 4px solid #033649;
+    clear: right;
+    margin-top: -10px;
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+#p6 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+#cc {
+    border: 0.1px solid  rgb(134, 134, 134);
+}
+
+#p7 {
+    position: absolute;
+    top: 1250px;
+    left: 50px;
+    right: 50PX;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color:rgba(2, 81, 80, 1);
+}
+
+#p8 {
+    font-size: 35px;
+    text-align: center;
+    display: flex ;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;  
+}
+
+.casa1 {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 35px;
+    border-radius: 20px; 
+    border: 2px solid #000;
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+div.historia {
+    text-align: center;
+    color: #000;
+    padding: 10px; 
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(134, 134, 134);
+    border-bottom-style: solid;
+    border-bottom-color:rgb(134, 134, 134);
+    border-bottom-width: 1px;
+}
+
+#borda2 {
+    text-align: left;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgba(2, 81, 80, 1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0.3rem 0.5rem black;
+}
+
+/*Estilo de Vida*/
+
+#imgverde {
+    border: 0.1px solid rgb(134, 134, 134);
+    box-shadow: 0 0.3rem 0.5rem rgb(134, 134, 134);
+}
+
+#p9 {
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+#p10{
+    font-size: 25px;
+    text-align: left;
+    display: flex ;
+    float: left;
+    margin-left: 60px;
+    margin-top: 80px; 
+}
+
+#imgcomida {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 20px; 
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+#imgcaminho {
+    border: 0.1px solid rgb(134, 134, 134);
+    box-shadow: 0 0.3rem 0.5rem rgb(134, 134, 134);
+}
+
+#p11 {
+    position: absolute;
+    top: 1425px;
+    left: 150px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+#p12 {
+    font-size: 23px;
+    float: left;
+    margin-top: 12,5px;
+    margin-left: 100px;  
+}
+
+#p13 {
+    font-size: 23px;
+    float: right;
+    text-align: center;
+    margin-top: -50px;
+    margin-right: 100px;    
+}
+
+#pq1 {
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+#pq2 {
+    float: right;
+    margin-top: 35px;
+    margin-right: 50px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+ #p14 {
+    font-size: 30px;
+    text-align: center;
+    display: flex ;
+    float: left;
+    margin-left: 40px;
+    margin-top: 150px; 
+    margin-right: 20px;
+ }
+
+ #imgresiden {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 20px; 
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+ }
+
+ #p15 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Comfortaa', cursive; 
+ }
+
+ #T4 {
+    font-size: 25px;
+    margin-bottom: 15px;
+ }
+
+ #divescolas1 > div{
+    display: inline-block;
+    margin-left: 60px;
+ }
+
+ #divescolas2 > div{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 60px;
+ }
+
+ #container{
+    text-align: center;
+ }
+
+ .escolas > h4{
+    text-align: center;
+ }
+
+/*Contato*/
+
+#forms{
+    width: 400px;
+    height: 400px;
+    background-color:rgba(2, 81, 80, 1);
+    border-radius: 20px ;
+    box-shadow: 0 0.3rem 0.5rem 0.5rem rgb(134, 134, 134);
+    margin-left: 450px;
+}
+
+#formulário {
+    margin-left: 30px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#p16 {
+    font-size: 15px;
+    font-family: 'Comfortaa', cursive; 
+    font-weight: bold; 
+    color: #fff;
+    margin-left: 10px;
+}
+
+#p17 {
+    text-align: center;
+    font-size: 20px;
+}
+
+#contato {
+    margin-left: 200px;
+}
+
+#redes {
+    color: #033649;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+#redes:visited {
+    color: #000;
+}
+
+#binicio {
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive; 
+}
+
+#binicio2 {
+    margin-left: 300px;
+    margin-top: 10px;
+    width: 275px;
+    height: 52px;
+    background-color: rgba(2, 81, 80, 1);
+    border-radius: 20PX;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 0.3rem 0.5rem 0.2rem rgb(134, 134, 134);
+}
+
+#binicio2:hover {
+    background-color: rgba(3, 120, 120, 3);
+    color: black;
+}
